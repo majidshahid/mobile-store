@@ -1,0 +1,100 @@
+ body{
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+ }
+ .main{
+     width: 70%;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .logo{
+     margin-top: 4%;
+     background-color: black;
+     opacity: 0.7;
+   
+ }
+.logo img{
+    width: 50%;
+    height: 30%;
+}
+.contant {
+    margin-top: 5%;
+}
+ .buy{
+text-decoration: none;
+color: black;
+
+}
+#col{
+    margin-top: 5%;
+}
+.bainer{
+    background-image: url(bainer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+}
+
+.bpara{
+    width: 60%;
+    height: auto;
+    padding: 15% 20% 10% 10%;
+   color: wheat;
+   background-color:black;
+   opacity: 0.5;
+}
+.bpara button{
+ width: 80%;
+}
+@media only screen and (max-width: 600px) {
+    .bpara {
+     width: 100%;
+     height: 250px;
+     overflow: scroll;
+    }
+  }
+  .watch {
+      margin-top: 4%;
+  }
+  #one{
+     box-shadow: 2px 2px black;
+      text-align: center;
+  }
+  .footer{
+      background-color: silver;
+      margin-top: 20%;
+      color: black;
+      text-align: center;
+  }
+
+  .bainer1{
+    background-image: url(bainer1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+}
+
+.bpara1{
+    width: 60%;
+    height: auto;
+    padding: 15% 20% 10% 10%;
+   color: wheat;
+   background-color:black;
+   opacity: 0.5;
+}
+.bpara1 button{
+ width: 80%;
+}
+@media only screen and (max-width: 600px) {
+    .bpara1 {
+     width: 100%;
+     height: 250px;
+     overflow: scroll;
+    }
+  }
+  #carouselExampleControls{
+      margin-top: 5%;
+  }
